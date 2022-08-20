@@ -227,13 +227,13 @@
 
     /* Certificates */
     #certificates img{
-        width: 300px;
+        width: 200px;
         display: flex;
         padding: 10px;
       }
     
       #certificates img:hover{
-        width: 800px;
+        width: 500px;
         transition: .5s;
         
       }
