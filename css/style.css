@@ -2,7 +2,7 @@
     --black: #18181b;
     --lilac-dark: #7c3aed;
     --lilac-medium: #a78bfa;
-    --lilac-light: #ede9fe;
+    --lilac-light: #e5dfff;
     --white: #fff;
     --accent: #f7cac9;
     --text: #e5e7eb;
@@ -17,11 +17,10 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, var(--black) 60%, var(--lilac-dark) 100%);
+    background: linear-gradient(45deg, var(--lilac-dark) -100%, var(--black) 70%);
     color: var(--white);
     padding: 2.5rem 0 2rem 0;
     text-align: center;
-    border-radius: 0 0 24px 24px;
     box-shadow: 0 2px 16px #0003;
 }
 
@@ -105,7 +104,7 @@ section {
     border-radius: 16px;
     box-shadow: 0 2px 16px #0005;
     padding: 2rem;
-    border: 1px solid var(--lilac-dark);
+    /* border: 1px solid var(--lilac-dark); */
 }
 
 h2 {
@@ -118,16 +117,16 @@ h2 {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 .skill-card {
     background: var(--lilac-light);
     border-radius: 10px;
     text-align: center;
-    padding: 1rem 0.5rem;
+    padding: 1rem 0.2rem;
     box-shadow: 0 1px 6px #0002;
     color: var(--black);
     transition: transform 0.2s, box-shadow 0.2s;
@@ -144,7 +143,7 @@ h2 {
 }
 
 .skill-card h3 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--lilac-dark);
     margin: 0;
 }
@@ -172,8 +171,10 @@ h2 {
 
 #contato p, #contato a,
 #contact p, #contact a {
-    font-size: 1.05rem;
+    font-size: 3rem;
     color: var(--text);
+    text-decoration: none;
+    text-align: center;;
 }
 
 #contato ion-icon,
@@ -189,7 +190,6 @@ footer {
     background: var(--lilac-dark);
     color: var(--white);
     margin-top: 2rem;
-    border-radius: 0 0 16px 16px;
     font-size: 1rem;
     letter-spacing: 1px;
 }
@@ -198,7 +198,7 @@ footer {
     position: fixed;
     right: 2rem;
     bottom: 2rem;
-    background: var(--lilac-dark);
+    background: var(--lilac-medium);
     border-radius: 50%;
     padding: 0.7rem;
     box-shadow: 0 2px 8px #0002;
@@ -208,7 +208,7 @@ footer {
 }
 
 .floating-button:hover {
-    background: var(--lilac-medium);
+    background: var(--lilac-light);
 }
 
 @media (max-width: 600px) {
