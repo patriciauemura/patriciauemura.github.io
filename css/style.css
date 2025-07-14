@@ -115,6 +115,11 @@ h2 {
     text-align: center;
 }
 
+#about p,
+#sobre p {
+    text-align: center;
+}
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
